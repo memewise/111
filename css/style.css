@@ -1,0 +1,781 @@
+body {
+    font-family: 微软雅黑;
+}
+
+.header {
+    width: 640px;
+    height: 250px;
+    background: url(../img/05.png);
+    background-position: -36px;
+}
+
+.header1 {
+    width: 50px;
+    height: 50px;
+    background: url(../img/04.png);
+    margin-left: 540px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.header2 {
+    width: 270px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 338px;
+    margin-top: 85px;
+    position: absolute;
+}
+
+.header3 {
+    width: 165px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 420px;
+}
+
+.header4 {
+    width: 106px;
+    height: 13px;
+    line-height: 13px;
+    color: white;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 165px;
+    animation: header45-key 3s 1 ease;
+}
+
+.header5 {
+    width: 100px;
+    height: 20px;
+    border: 1px solid white;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 190px;
+    animation: header45-key 2s 1 ease;
+}
+
+@keyframes header45-key {
+    0% {
+        transform: scale(0, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.nengyuansum {
+    width: 640px;
+    height: 700px;
+    background: url(../img/大背景.png)no-repeat;
+}
+
+.nengyuan {
+    color: #fff;
+    font-size: 13px;
+    width: 640px;
+    height: 190px;
+}
+
+.nengyuan img {
+    float: left;
+    margin-left: 20px;
+}
+
+.nengyuan p {
+    width: 470px;
+    height: 100px;
+    float: left;
+    margin: 55px 0 0 -30px;
+}
+
+.nengyuan p #nengyuan-b {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2ffffd;
+    margin-top: -6px;
+}
+
+.nengyuan p #nengyuan-c {
+    color: #2ffffd;
+}
+
+.nengyuandi {
+    clear: both;
+    height: 500px;
+    color: #fff;
+}
+
+.nengyuandi #zhuban {
+    font-size: 18px;
+    display: inline-block;
+    width: 250px;
+    height: 37px;
+    padding: 7px 0 0 10px;
+    margin: 0 0 0 20px;
+    background: url(../img/主办单位.png)no-repeat;
+}
+
+.nengyuandi #qiye {
+    font-size: 18px;
+    position: absolute;
+    left: 130px;
+    top: 462px;
+}
+
+.nengyuandi #xieban {
+    font-size: 20px;
+    display: inline-block;
+    width: 106px;
+    height: 60px;
+    padding: 8px 0 0 80px;
+    margin: -10px 0 0 170px;
+    background: url(../img/协办单位.png)no-repeat;
+}
+
+.nengyuandi #dell {
+    font-size: 20px;
+    position: absolute;
+    left: 130px;
+    top: 512px;
+}
+
+.nengyuandi #feiji {
+    margin: 0 0 0 0px;
+    animation: feiji-key 5s 1 linear;
+}
+
+@keyframes feiji-key {
+    0% {}
+    100% {}
+}
+
+.nengyuandi #diqiu {
+    position: absolute;
+    left: 372px;
+    top: 439px;
+    opacity: 0.1;
+    animation: diqiu-key 20s infinite linear;
+}
+
+@keyframes diqiu-key {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.nengyuandi #diqiuhongdian {
+    position: absolute;
+    left: 513px;
+    top: 552px;
+}
+
+.nengyuandi #zhuhai {
+    font-size: 18px;
+    position: absolute;
+    left: 510px;
+    top: 523px;
+}
+
+.nengyuandi #jiudian {
+    font-size: 15px;
+    position: absolute;
+    left: 462px;
+    top: 556px;
+}
+
+.nengyuandi #shijian {
+    font-size: 15px;
+    position: absolute;
+    left: 453px;
+    top: 579px;
+}
+
+.nengyuandi #jieji {
+    font-size: 16px;
+    position: absolute;
+    left: 178px;
+    top: 648px;
+}
+
+.nengyuandi #luntanzi {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 560px;
+    top: 683px;
+}
+
+.nengyuandi #gaofeng {
+    font-size: 16px;
+    position: absolute;
+    left: 342px;
+    top: 712px;
+}
+
+.nengyuandi #jiaoliu {
+    font-size: 16px;
+    position: absolute;
+    left: 342px;
+    top: 739px;
+}
+
+.nengyuandi #youlan {
+    font-size: 16px;
+    position: absolute;
+    left: 383px;
+    top: 756px;
+}
+
+.nengyuandi #fanchengzi {
+    font-size: 14px;
+    position: absolute;
+    left: 82px;
+    top: 755px;
+}
+
+.nengyuandi #fancheng {
+    position: absolute;
+    left: 52px;
+    top: 728px;
+}
+
+.nengyuandi #luntan {
+    position: absolute;
+    left: 284px;
+    top: 658px;
+}
+
+.nengyuandi #xiebanfang {
+    width: 146px;
+    font-size: 12px;
+    position: absolute;
+    margin: 83px 0 0 75px;
+}
+
+.nengyuandi #feiyong {
+    font-size: 12px;
+    width: 338px;
+    margin: 90px 0 0 273px;
+    animation: feiyong-key 3s 1 ease;
+}
+
+@keyframes feiyong-key {
+    0% {
+        transform: scale(0, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.nengyuandi #feiyong #feiyonghong {
+    color: red;
+}
+
+.nengyuandi #xingzhuangzuo {
+    margin: 52px 0 0 20px;
+}
+
+.yiti {
+    width: 640px;
+    height: 530px;
+    background: url(../img/beijing.png);
+}
+
+.yiti-1 {
+    width: 190px;
+    height: 35px;
+    margin-left: 132px;
+    background-image: url(../img/橙色.png);
+}
+
+.yiti-1 span {
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.yiti-2 {
+    height: 70px;
+    width: 515px;
+    margin-top: -45px;
+    margin-left: 25px;
+    background-image: url(../img/1.png);
+    background-position: 3px 0px;
+    background-repeat: no-repeat;
+}
+
+.yiti2-1 {
+    width: 230px;
+    height: 40px;
+    margin-left: 83px;
+    padding-top: 22px;
+    margin-top: 30px;
+}
+
+.yiti2-1 span {
+    color: white;
+    font-size: 14px;
+}
+
+.yiti-3 {
+    width: 320px;
+    height: 85px;
+    margin-left: 30px;
+    background-image: url(../img/2.png);
+    background-position: 58px -1px;
+    background-repeat: no-repeat;
+}
+
+.yiti3-1 {
+    width: 240px;
+    height: 90px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.yiti3-1 span {
+    color: white;
+    font-size: 14px;
+}
+
+.yiti-4 {
+    width: 300px;
+    height: 90px;
+    margin-left: 25px;
+    background-image: url(../img/3.png);
+    background-repeat: no-repeat;
+    background-position: 1px 0px;
+}
+
+.yiti4-1 {
+    width: 230px;
+    height: 70px;
+    margin-left: 79px;
+    margin-top: 10px;
+}
+
+.yiti4-1 span {
+    color: white;
+    font-size: 14px;
+}
+
+.yiti-5 {
+    width: 300px;
+    height: 70px;
+    margin-left: 25px;
+    background-image: url(../img/4.png);
+    background-repeat: no-repeat;
+    background-position: 41px -1px;
+}
+
+.yiti5-1 {
+    width: 230px;
+    height: 60px;
+    margin: 10px 0px 0px 0px;
+}
+
+.yiti5-1 span {
+    color: white;
+    font-size: 14px;
+}
+
+.yiti-6 {
+    width: 275px;
+    height: 40px;
+    margin-left: 25px;
+    background-image: url(../img/5.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+}
+
+.yiti6-1 {
+    width: 210px;
+    height: 20px;
+    margin: 10px 0px 0px 80px;
+    padding-top: 10px;
+}
+
+.yiti-6 span {
+    color: white;
+    font-size: 14px;
+}
+
+.yiti-7 {
+    width: 260px;
+    height: 250px;
+    margin-left: 380px;
+    margin-top: -320px;
+    background-image: url(../img/二维verg4.png);
+    background-repeat: no-repeat;
+}
+
+.yiti7-1 {
+    width: 170px;
+    height: 65px;
+    margin: 10px 0px 0px 10px;
+    padding-top: 11px;
+}
+
+.yiti7-1 span {
+    font-size: 14px;
+    color: white;
+}
+
+.yiti7-2 {
+    background-image: url(../img/椰子树.png);
+    background-repeat: no-repeat;
+    background-position: 338px -6px;
+}
+
+.yiti-8 {
+    width: 220px;
+    height: 95px;
+    margin: -69px 0px 0px 391px;
+    background-image: url(../img/二维verg42.png);
+    background-repeat: no-repeat;
+}
+
+.yiti8-1 {
+    width: 195px;
+    height: 20px;
+    margin: 40px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+.yiti8-1 span {
+    color: white;
+    line-height: 95px;
+    font-size: 14px;
+}
+
+.yiti-9 {
+    width: 515px;
+    height: 45px;
+    margin: 5px 0px 0px 125px;
+    background: url(../img/3333.png)no-repeat;
+}
+
+.yiti9-1 {
+    width: 120px;
+    height: 20px;
+    margin: 10px 0px 0px 230px;
+}
+
+.yiti9-1 span {
+    color: white;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.yiti-10 {
+    width: 200px;
+    height: 15px;
+    background: url(../img/形状右.png);
+    background-repeat: no-repeat;
+    margin: 43px 0px 0px 470px;
+}
+
+.bei1 table td {
+    text-align: center;
+    font-size: 12px;
+}
+
+.bei1 {
+    background: url(../img/beij.png);
+    width: 640px;
+    height: 900px;
+}
+
+.bei2 {
+    background: url(../img/biao.png);
+    width: 700px;
+    height: 900px;
+    margin-left: -40px;
+}
+
+.zi1 {
+    display: inline-block;
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    z-index: 2;
+    color: white;
+    position: relative;
+    left: 345px;
+    top: 8px;
+}
+
+.jiao {
+    display: inline-block;
+    font-size: 12px;
+    width: 28px;
+    height: 50px;
+    z-index: 2;
+    color: white;
+}
+
+.j1 {
+    position: relative;
+    left: 13px;
+    top: 73px;
+}
+
+.b1 {
+    position: relative;
+    left: 80px;
+    top: 39px;
+}
+
+.b2 {
+    position: relative;
+    left: 80px;
+    top: 29px;
+}
+
+.b3 {
+    position: relative;
+    left: 84px;
+    top: 16px;
+}
+
+.j2 {
+    position: relative;
+    left: 72px;
+    top: 68px;
+}
+
+.j3 {
+    position: relative;
+    left: 72px;
+    top: 55px;
+}
+
+.foot {
+    width: 640px;
+    height: 400px;
+    background: url(../img/beij.png);
+}
+
+.weibu {
+    width: 640px;
+    height: 400px;
+    padding-top: 10px;
+    background: url(../img/02.png);
+    background-position-y: -180px;
+    background-position-x: -36px;
+}
+
+.weibu1 {
+    width: 115px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 45px;
+    color: white;
+    font-size: 14px;
+}
+
+.weibu2 {
+    width: 58px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-left: 270px;
+    font-size: 14px;
+    color: #2ffffd;
+}
+
+.weibu3 {
+    width: 342px;
+    height: 40px;
+    font-size: 2px;
+    margin-left: 270px;
+    color: white;
+    line-height: 14px;
+    margin-top: 2px;
+}
+
+.weibu4 {
+    width: 25px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    color: #2ffffd;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+
+.weibu5 {
+    width: 210px;
+    height: 50px;
+    margin-left: 400px;
+    font-size: 2px;
+    color: white;
+}
+
+.weibu6 {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: #2ffffd;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.weibu7 {
+    width: 210px;
+    height: 35px;
+    margin-left: 400px;
+    font-size: 2px;
+    color: white;
+    line-height: 12px;
+    margin-top: 2px;
+}
+
+.weibu8 {
+    width: 440px;
+    height: 94px;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+.weibu8-1 {
+    width: 56px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 15px;
+    color: white;
+    float: left;
+}
+
+.weibu8-2 {
+    width: 75px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 25px;
+    color: white;
+    float: left;
+}
+
+.weibu8-3 {
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 115px;
+    color: white;
+    float: left;
+}
+
+.weibu8-4 {
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+
+.weibu8-5 {
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 15px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-6 {
+    width: 110px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 10px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-7 {
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 81px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-7 {
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 81px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-8 {
+    width: 60px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 2px;
+    margin-left: 20px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-9 {
+    width: 80px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 2px;
+    margin-left: 15px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu8-10 {
+    width: 120px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 2px;
+    margin-left: 0px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.weibu9 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 235px;
+    color: #888;
+    opacity: 0.3;
+}
